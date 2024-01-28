@@ -1,0 +1,95 @@
+@media screen and (max-width: 620px) {
+    .contactinfo {
+        width: 100%;
+    }
+
+    .row {
+        width: 425px;
+        margin: 0px auto;
+        padding-top: 100px;
+        gap: 10px;
+    }
+
+    .form-floating {
+        width: 410px;
+        margin: 0 auto;
+    }
+
+    div.d-grid {
+        width: 410px;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contactinfo {
+        width: 100%;
+    }
+
+    .row {
+        width: 372px;
+        margin: 0px auto;
+        padding-top: 100px;
+        gap: 10px;
+    }
+
+    .form-floating {
+        width: 372px;
+        margin: 0 auto;
+    }
+
+    div.d-grid {
+        width: 372px;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contactinfo {
+        width: 100%;
+    }
+
+    .row {
+        width: 318px;
+        margin: 0px auto;
+        padding-top: 100px;
+        gap: 10px;
+    }
+
+    .form-floating {
+        width: 315px;
+        margin: 0 auto;
+    }
+
+    div.d-grid {
+        width: 315px;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contactinfo {
+        width: 100%;
+    }
+
+    .row {
+        width: 278px;
+        margin: 0px auto;
+        padding-top: 100px;
+        gap: 10px;
+    }
+
+    .form-floating {
+        width: 278px;
+        margin: 0 auto;
+    }
+
+    div.d-grid {
+        width: 278px;
+        margin: 0px auto;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}

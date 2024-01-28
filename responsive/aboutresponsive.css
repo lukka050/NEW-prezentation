@@ -1,0 +1,93 @@
+@media screen and (max-width: 1100px) {
+    section.about {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 1100px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    aside.biography {
+        width: 580px;
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    h5 {
+        padding-top: 0;
+    }
+
+    aside.adam {
+        width: 580px;
+        height: 580px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    aside.right {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.about {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 768px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    aside.biography {
+        width: 420px;
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    aside.adam {
+        width: 420px;
+        height: 580px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    .clients {
+
+        width: 400px;
+        flex-wrap: wrap;
+    }
+
+    .topimages {
+        display: flex;
+        gap: 16px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottomimages {
+        display: flex;
+        gap: 25px;
+        row-gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 0px !important;
+    }
+
+    h5 {
+        padding-top: 30px;
+    }
+
+    div.line {
+        width: 100%;
+        max-width: 424px;
+    }
+}
+
+@media screen and (max-width: 425px) {}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 320px) {}
